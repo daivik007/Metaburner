@@ -1,4 +1,5 @@
 @echo off
+
 echo Installing FFmpeg using winget...
 winget install -e --id Gyan.FFmpeg
 
