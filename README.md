@@ -4,8 +4,9 @@
 
 ## Features
 
+-
 - 🎞️ **Subtitle Burning**: Seamlessly embeds subtitles into video files.
-- 📁 **Output Folder Selection**: Choose your desired output directory for processed videos.
+- 📁 **Quick Renaming Media Files**: Rename your media files quickly in one go.
 - 🔄 **Optional Subtitle Conversion**: Convert subtitle formats as needed.
 - 🆎 **Custom Font Support**: Utilizes the **Netflix Sans** font for subtitles, ensuring readability.
 - 📊 **Progress Bar**: Displays a clean progress bar with estimated time remaining.
