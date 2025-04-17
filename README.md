@@ -58,12 +58,14 @@ Metaburner/
 │
 ├── .gitignore                         # Specifies untracked files to ignore
 ├── install_fonts.ps1                  # PowerShell script to install fonts (Windows)
+├── install_fonts.sh                   # Font installer script (Linux)
 ├── LICENSE                            # MIT License
 ├── metaburner.py                      # Main script to handle subtitle burning
 ├── package.json                       # Node.js config (for ffmpeg-progressbar-cli)
 ├── package-lock.json                  # Locks npm dependency versions
 ├── README.md                          # Project documentation
-└── setup_dependencies.bat             # Batch file to install required dependencies
+├── setup_dependencies.bat             # Dependency setup for Windows
+└── setup_dependencies.sh              # Dependency setup for Linux
 ```
 
 ## Contributing
