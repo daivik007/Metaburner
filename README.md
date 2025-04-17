@@ -20,16 +20,46 @@ Ensure you have the following installed on your system:
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/daivik007/Metaburner.git
    cd Metaburner
    ```
+
 2. Install the required packages:
+
    - Run the setup script to install necessary dependencies:
+
    ```bash
    setup_dependencies.bat
    ```
-   - **Install Netflix Sans font** (via Powershell 7 as Admin):
-   ```bash
-   iwr -useb https://raw.githubusercontent.com/daivik007/Metaburner/refs/heads/master/install_fonts.ps1| iex
-   ```
+
+   - Install Netflix Sans font (via Powershell 7 as Admin) from `install_font.ps1`
+
+## Usage
+
+Run **Metaburner**:
+
+```
+python metaburner.py
+```
+
+## File Structure
+
+```
+Metaburner/
+│
+├── Fonts/                             # Directory containing NetflixSans.otf font files
+│   └── NetflixSans-Medium.otf
+│
+├── node_modules/                      # Created after npm install (gitignored)
+│
+├── .gitignore                         # Specifies untracked files to ignore
+├── install_fonts.ps1                  # PowerShell script to install fonts (Windows)
+├── LICENSE                            # MIT License
+├── metaburner.py                      # Main script to handle subtitle burning
+├── package.json                       # Node.js config (for ffmpeg-progressbar-cli)
+├── package-lock.json                  # Locks npm dependency versions
+├── README.md                          # Project documentation
+└── setup_dependencies.bat             # Batch file to install required dependencies
+```
