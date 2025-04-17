@@ -1,4 +1,0 @@
-python - manual
-npm - manual
-ffmpeg - winget install -e --id Gyan.FFmpeg
-ffmpeg-progressbar-cli - npm install --global ffmpeg-progressbar-cli
