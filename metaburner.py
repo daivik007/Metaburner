@@ -147,8 +147,6 @@ if __name__ == "__main__":
 
 #UPDATE: Add upscaling feature
 #UPDATE: Add filetype conversion feature
-#UPDATE: Docker integration
-#UPDATE: converting ps1 file to sh file for docker supports
 #UPDATE: Make GUI for this script using tkinter or PyQt5
 
 
