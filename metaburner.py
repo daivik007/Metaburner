@@ -141,13 +141,15 @@ if __name__ == "__main__":
 #FIXED: Make conversion lossless
 #FIXED: ffmpeg font like Netflix EXACT
 #FIXED: Convert batch file to .ps1 file for windows powershell
+#FIXED: Make a proper .gitignore file so that the .git folder is not uploaded to the repo
 
 #UPDATE: Add upscaling feature
 #UPDATE: Add filetype conversion feature
-#UPDATED: Make a requirements.txt file so that external libraries can be downloaded
 #UPDATE: Docker integration
-
-#FIXED: Make a proper .gitignore file so that the .git folder is not uploaded to the repo
-
 #UPDATE: converting ps1 file to sh file for docker supports
+#UPDATE: Make GUI for this script using tkinter or PyQt5
+
+
+
+
 
