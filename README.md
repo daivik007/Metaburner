@@ -29,7 +29,7 @@ Ensure you have the following installed on your system:
    ```bash
    setup_dependencies.bat
    ```
-   - Install Netflix Sans font:
+   - **Install Netflix Sans font** (via Powershell 7 as Admin):
    ```bash
-   install_font.ps1
+   iwr -useb https://raw.githubusercontent.com/daivik007/Metaburner/refs/heads/master/install_fonts.ps1| iex
    ```
