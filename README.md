@@ -1,6 +1,6 @@
 # Metaburner
 
-**Metaburner** is a streamlined Python-based tool designed to burn subtitles into video files effortlessly. It leverages FFmpeg and ffmpeg-progressbar-cli to provide a clean, user-friendly experience with real-time progress updates.
+**Metaburner** is a streamlined Python-based tool designed to burn subtitles into video files effortlessly. It leverages FFmpeg and `ffmpeg-progressbar-cli` to provide a clean, user-friendly experience with real-time progress updates.
 
 ## Features
 
@@ -13,5 +13,23 @@
 
 ## Prerequisites
 
+Ensure you have the following installed on your system:
+
 - **Python**: [Download Python](https://www.python.org/downloads/)
-- **Node.js and npm**: [Download Node.js]()
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/daivik007/Metaburner.git
+   cd Metaburner
+   ```
+2. Install the required packages:
+   - Run the setup script to install necessary dependencies:
+   ```bash
+   setup_dependencies.bat
+   ```
+   - Install Netflix Sans font:
+   ```bash
+   install_font.ps1
+   ```

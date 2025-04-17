@@ -149,3 +149,5 @@ if __name__ == "__main__":
 
 #FIXED: Make a proper .gitignore file so that the .git folder is not uploaded to the repo
 
+#UPDATE: converting ps1 file to sh file for docker supports
+

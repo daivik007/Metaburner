@@ -1,5 +1,8 @@
 @echo off
 
+echo Installign Node.js and npm...
+winget install OpenJS.NodeJS
+
 echo Installing FFmpeg using winget...
 winget install -e --id Gyan.FFmpeg
 
