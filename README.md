@@ -19,9 +19,7 @@ Ensure you have the following installed on your system:
 
 ## Installation
 
-### Option 1: Docker Installation: (Recommended)
-
-### Option 2: Standard Manual Installation (Windows):
+### Standard Manual Installation (Windows):
 
 1. Clone the repository:
 
