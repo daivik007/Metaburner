@@ -1,0 +1,23 @@
+# Ignore Python virtual environment
+.venv/
+
+# Node.js modules
+node_modules/
+
+# Environment variables (contains secrets!)
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# VSCode settings (optional, personal settings)
+.vscode/
+
+# Workspace file (optional, local to your setup)
+*.code-workspace
+
+# Log files or temp
+*.log
+*.tmp
