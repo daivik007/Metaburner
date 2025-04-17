@@ -3,6 +3,7 @@ import re
 import shutil
 import subprocess
 import sys
+import platform
 
 def natural_sort_key(s):
     return [int(text) if text.isdigit() else text.lower() for text in re.split(r'(\d+)', s)]
@@ -38,7 +39,8 @@ def rename_and_copy():
 
 def get_npm_global_path():
     try:
-        npm_path = subprocess.check_output(["npm.cmd","config","get","prefix"]).decode().strip()
+        npm_cmd = "npm.cmd" if platform.system() == "Windows" else "npm"
+        npm_path = subprocess.check_output([npm_cmd, "config", "get", "prefix"]).decode().strip()
         return npm_path
     except Exception:
         return None
