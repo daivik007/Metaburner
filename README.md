@@ -63,3 +63,11 @@ Metaburner/
 ├── README.md                          # Project documentation
 └── setup_dependencies.bat             # Batch file to install required dependencies
 ```
+
+## Contributing
+
+Feel free to submit issues or pull requests. Your contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
