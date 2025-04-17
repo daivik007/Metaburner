@@ -19,6 +19,33 @@ Ensure you have the following installed on your system:
 
 ## Installation
 
+### Standard Manual Installation (Linux):
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/daivik007/Metaburner.git
+   cd Metaburner
+   ```
+
+2. Install the required packages:
+
+   - Run the setup script to install necessary dependencies:
+
+   ```bash
+   chmod +x setup_dependencies.sh
+   ./setup_dependencies.sh
+   ```
+
+   - Install Netflix Sans font:
+
+   ```bash
+   chmod +x install_fonts.sh
+   ./install_fonts.sh
+   ```
+
+   - Alternatively, you can manually install the font by copying the `NetflixSans-Medium.otf` file to your system's font directory.
+
 ### Standard Manual Installation (Windows):
 
 1. Clone the repository:
@@ -37,6 +64,8 @@ Ensure you have the following installed on your system:
    ```
 
    - Install Netflix Sans font (via Powershell 7 as Admin) from `install_font.ps1`
+
+   - Alternatively, you can manually install the font by double clicking the `NetflixSans-Medium.otf` file and clicking "Install".
 
 ## Usage
 
